@@ -1,0 +1,355 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #0c101b;
+}
+
+.container {
+  width: 23em;
+  margin: 0 auto;
+  margin-top: 4em;
+}
+
+.report img {
+  width: 5em;
+  height: 5em;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+.name h4 {
+  margin-bottom: 0.5em;
+}
+
+p,
+h1,
+h2,
+h4 {
+  color: white;
+}
+
+h4 {
+  font-weight: 300;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+.man {
+  background-color: #17173b;
+}
+
+.report {
+  display: flex;
+  background-color: #4428e6;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  height: 8em;
+  margin-top: 1em;
+  border-radius: 0.5em;
+}
+
+.time {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2em;
+  border-radius: 0.5em;
+  height: 4em;
+}
+
+.col {
+  margin-top: 1em;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.workk {
+  background-color: #fc7652;
+  border-radius: 0.5em;
+  width: 23em;
+}
+
+.work {
+  padding-top: -2em;
+  padding-left: 17em;
+  overflow: hidden;
+  margin-bottom: -1em;
+}
+
+.work img {
+  margin-top: -1em;
+  width: 5em;
+}
+
+.data-w {
+  background-color: #17173b;
+  border-radius: 0.5em;
+  width: 23em;
+  height: 8em;
+  position: relative;
+  margin-top: -2em;
+}
+
+.topp {
+  display: flex;
+  margin: 1em;
+  padding-top: 2em;
+  justify-content: space-between;
+}
+
+.act {
+  display: flex;
+  justify-content: space-between;
+  margin: 1em;
+  margin-top: -0.5em;
+}
+
+.circle {
+  width: 2em;
+  height: 0.5em;
+}
+
+.act p {
+  margin-top: 0.5em;
+}
+
+p {
+  color: #b2b1f3;
+}
+
+.playy {
+  background-color: #48b6e0;
+  border-radius: 0.5em;
+  width: 23em;
+  margin: 0 auto;
+}
+
+.play {
+  padding-top: -2em;
+  padding-left: 17em;
+  overflow: hidden;
+  margin-bottom: -1em;
+}
+
+.play img {
+  margin-top: -1em;
+  width: 5em;
+}
+.studyy {
+  background-color: #fd446b;
+  border-radius: 0.5em;
+  width: 23em;
+  margin: 0 auto;
+}
+
+.study {
+  padding-top: -2em;
+  padding-left: 17em;
+
+  overflow: hidden;
+  margin-bottom: -1em;
+}
+
+.study img {
+  margin-top: -1em;
+  width: 5em;
+}
+
+.exercisee {
+  background-color: #41ca70;
+  border-radius: 0.5em;
+  width: 23em;
+}
+
+.exercise {
+  padding-top: -3em;
+  padding-left: 17em;
+  overflow: hidden;
+  margin-bottom: 0em;
+}
+
+.exercise img {
+  width: 5em;
+}
+
+.sociall {
+  background-color: #5e16c8;
+  border-radius: 0.5em;
+  width: 23em;
+  overflow: hidden;
+}
+
+.social {
+  padding-left: 17em;
+  margin-bottom: -1em;
+  margin-top: -2em;
+}
+
+.social img {
+  width: 5em;
+}
+
+.selff {
+  background-color: #edbc49;
+  border-radius: 0.5em;
+  width: 23em;
+  overflow: hidden;
+  margin-bottom: 4em;
+}
+
+.self {
+  padding-left: 17em;
+  margin-bottom: -1em;
+  margin-top: -1em;
+}
+
+.self img {
+  width: 5em;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.topp p {
+  color: white;
+}
+
+.weekly {
+  color: white;
+}
+
+@media only screen and (min-width: 600px) {
+  .container {
+    width: auto;
+    max-width: 900px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10em;
+  }
+
+  .middle {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    margin-left: 1em;
+  }
+
+  .man {
+    height: 15em;
+    width: 15em;
+    background-color: #4428e6;
+    margin-left: 1em;
+    margin-top: 10em;
+    border-radius: 0.5em;
+  }
+
+  .report {
+    height: 22.5em;
+    flex-direction: column;
+    gap: 2em;
+    margin-bottom: -5em;
+  }
+
+  .report img {
+    margin-top: -5em;
+    margin-left: -6em;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  .name {
+    margin-left: 2em;
+  }
+
+  .time {
+    margin-left: 15em;
+    height: 8em;
+    flex-direction: column;
+    margin-left: 0em;
+    background-color: #17173b;
+  }
+
+  .top {
+    display: flex;
+    flex-direction: row;
+    width: 40em;
+    margin-top: 9em;
+    gap: 1em;
+  }
+
+  .bottom {
+    flex-direction: row;
+    gap: 1em;
+  }
+
+  .playy {
+    margin-top: 1em;
+  }
+
+  .studyy {
+    margin-top: 1em;
+  }
+
+  .selff {
+    margin-top: 4em;
+  }
+
+  .exercisee {
+    margin-top: -0em;
+  }
+
+  .sociall {
+    margin-top: -0em;
+  }
+
+  .social {
+    height: 5em;
+  }
+
+  .social {
+    margin-top: -1em;
+    height: 5em;
+  }
+}
+
+.daily:hover {
+  cursor: pointer;
+  color: white;
+}
+
+.monthly:hover {
+  cursor: pointer;
+  color: white;
+}
+
+circle:hover {
+  cursor: pointer;
+}
+
+.data-w:hover {
+  background-color: #282968;
+  cursor: pointer;
+}
